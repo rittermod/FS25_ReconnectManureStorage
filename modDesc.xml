@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<modDesc descVersion="105">
+    <author>Ritter</author>
+    <version>1.0.0.0</version>
+    <title>
+        <en>Reconnect Manure Storage</en>
+    </title>
+    <description>
+        <en><![CDATA[
+Do your animal pens get dumped by their manure heaps when you reload your save? No warning, no goodbye — the shit just ups and leaves. Your cows have been putting in the work, and frankly, they deserve better.
+
+ReconnectManureStorage helps everyone get their shit back together. It reconnects manure heaps to their rightful pens after each game load, because no animal should have to wonder where yesterday's output went.
+
+I wanted to call this "Give Me My Shit Back", but I was told me some mod portals have standards.
+        
+Fixes a base game bug where manure heaps/pits lose their connection to animal pens after reloading a savegame. Automatically reconnects all manure storage extensions to nearby animal pens on game load.
+        ]]>        </en>
+    </description>
+    <iconFilename>icon_reconnectManureStorage.dds</iconFilename>
+    <multiplayer supported="true"/>
+    <extraSourceFiles>
+        <sourceFile filename="scripts/main.lua"/>
+    </extraSourceFiles>
+</modDesc>
